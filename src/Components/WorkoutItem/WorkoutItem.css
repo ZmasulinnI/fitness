@@ -1,0 +1,43 @@
+.workout-item {
+    display: flex;
+    padding-top: 16px;
+    margin-bottom: 12px;
+    background-color: #fdf8fd;
+    border: 1px solid #cbc4cf;
+    border-radius: 12px;
+}
+
+.workout-item__logo {
+    width: 47px;
+    height: 47px;
+}
+.workout-item__info {
+    width: 170px;
+    margin-bottom: 16px;
+}
+
+.info {
+
+}
+
+.info__workname {
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 500;
+    color: #1c1b1e;
+}
+
+.info__trener-text {
+    font-family: Roboto;
+    font-size: 12px;
+    font-weight: 400;
+    color: #49454e;
+}
+.info__trener-name {
+    font-family: Roboto;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 143%;
+    letter-spacing: 0.02em;
+    color: #1c1b1e;
+}
