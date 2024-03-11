@@ -1,0 +1,29 @@
+.header {
+    display: flex;
+    padding: 21px 21px 14px 21px;
+    justify-content: space-between;
+}
+
+.header__left-side {
+    display: flex;
+    align-items: center;
+    gap: 9px;
+
+}
+.header__right-side {
+    display: flex;
+}
+
+
+.header__right-side img:first-child {
+    margin-right: 51px;
+}
+.welcome {
+    color: rgb(28, 27, 30);
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0.15px;
+    text-align: left;
+}

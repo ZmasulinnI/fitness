@@ -1,4 +1,5 @@
 import './App.css'
+import MainHeader from './Components/Header/MainHeader/MainHeader'
 import WorkoutList from './Components/WorkoutList/WorkoutList'
 
 function App() {
@@ -6,6 +7,7 @@ function App() {
 
   return (
     <div className='app'>
+      <MainHeader></MainHeader>
       <WorkoutList></WorkoutList>
     </div>
   )

@@ -10,7 +10,7 @@ const organization = {
         added : "время"
     }
 
-const user = {
+export const user = {
     UserId : 0,
     UserName : "Ангелина",
     userType : "owner"
