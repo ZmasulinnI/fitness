@@ -93,7 +93,7 @@ export const schedule11 = [ // рассписание на конкретный 
         organizationID : 0,
         workoutID : 2,
         trainerId : 2,
-        datetimeStart : 1694455200, // (11.09.2023 18:00)
+        datetimeStart : 1710190584, // (11.09.2023 18:00)
         datetimeEnd : 1694458800, // (11.09.2023 19:00)
         
         workoutName : "Йога",

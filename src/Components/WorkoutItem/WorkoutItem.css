@@ -1,23 +1,31 @@
 .workout-item {
     display: flex;
-    padding-top: 16px;
     margin-bottom: 12px;
     background-color: #fdf8fd;
     border: 1px solid #cbc4cf;
     border-radius: 12px;
+    gap: 16px;
+    padding: 16px;
+    align-items: center;
 }
 
 .workout-item__logo {
-    width: 47px;
-    height: 47px;
+    /* width: 47px;
+    height: 47px; */
 }
 .workout-item__info {
-    width: 170px;
-    margin-bottom: 16px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
 }
 
 .info {
-
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items: flex-start;
 }
 
 .info__workname {
@@ -25,6 +33,8 @@
     font-size: 16px;
     font-weight: 500;
     color: #1c1b1e;
+    /* min-height: 24px; */
+    margin-bottom: 6px;
 }
 
 .info__trener-text {
@@ -32,6 +42,8 @@
     font-size: 12px;
     font-weight: 400;
     color: #49454e;
+    margin-bottom: 5px;
+    /* height: 16px; */
 }
 .info__trener-name {
     font-family: Roboto;
@@ -40,4 +52,30 @@
     line-height: 143%;
     letter-spacing: 0.02em;
     color: #1c1b1e;
+    /* height: 20px; */
+}
+
+.date__time {
+    display: flex;
+    align-items: center;
+    margin-bottom: 4px;
+}
+
+.time__logo {
+    margin-right: 4px;
+}
+
+.time__number {
+    color: rgb(73, 69, 78);
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0.15px;
+    text-align: left;
+}
+
+.date__members {
+    display: flex;
+    align-items: center;
 }
