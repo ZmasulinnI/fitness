@@ -1,0 +1,36 @@
+.item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+
+    
+    padding: 8px 12px;
+    border: 1px solid rgb(122, 117, 127);
+    border-radius: 8px;
+}
+
+.item__number {
+    color: rgb(30, 25, 43);
+    font-family: Roboto;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 20px;
+    letter-spacing: 0.1px;
+    text-align: center;
+}
+
+.item__text {
+    color: rgb(73, 69, 78);
+    font-family: Roboto;
+    font-size: 11px;
+    font-weight: 500;
+    line-height: 16px;
+    letter-spacing: 0.5px;
+    text-align: center;
+}
+
+.active {
+    background-color: #e9def8;
+    border-color: #e9def8;
+}
