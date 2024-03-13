@@ -1,0 +1,6 @@
+.header_main {
+    position: sticky;
+    top: 0px;
+    background-color: white;
+    padding-bottom: 10px;
+}

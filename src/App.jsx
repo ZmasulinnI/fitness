@@ -1,6 +1,5 @@
 import './App.css'
-import CalendarList from './Components/Header/CalendarList/CalendarList'
-import MainHeader from './Components/Header/MainHeader/MainHeader'
+import Header from './Components/Header/Header'
 import WorkoutList from './Components/WorkoutList/WorkoutList'
 
 function App() {
@@ -8,8 +7,7 @@ function App() {
 
   return (
     <div className='app'>
-      <MainHeader></MainHeader>
-      <CalendarList></CalendarList>
+      <Header></Header>
       <WorkoutList></WorkoutList>
     </div>
   )
