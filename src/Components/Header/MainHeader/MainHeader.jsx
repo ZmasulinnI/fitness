@@ -11,11 +11,10 @@ import { Dialog, DialogContent } from "@/Components/ui/dialog"
 import { DialogTrigger } from "@radix-ui/react-dialog"
 
 
-function MainHeader() {
+function MainHeader({date, setDate}) {
     const now_date = new Date();
     const month = (now_date.toLocaleString('default', { month: 'long' })).charAt(0).toUpperCase() + (now_date.toLocaleString('default', { month: 'long' })).slice(1);
     const year = now_date.getFullYear();
-    const [date, setDate] = React.useState(new Date())
 
 
     return (
@@ -28,21 +27,20 @@ function MainHeader() {
                 </div>
             </div>
             <div className="header__right-side">
-                {/* <Dialog>
+                <Dialog>
                     <DialogTrigger asChild>
                         <img src={calendar} alt="" />
                     </DialogTrigger>
-                    <DialogContent>
+                    <DialogContent className="w-fit">
                         <Calendar
                             mode="single"
                             selected={date}
                             onSelect={setDate}
                             className="rounded-md border"
+                            required
                         />
                     </DialogContent>
-                </Dialog> */}
-                <img src={calendar} alt="" />
-                
+                </Dialog>
                 <img src={notifications} alt="" />
                 
             </div>

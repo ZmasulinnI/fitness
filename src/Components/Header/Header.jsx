@@ -3,13 +3,12 @@ import "./Header.css"
 import MainHeader from "./MainHeader/MainHeader";
 
 
-function Header() {
-    
+function Header({date, setDate}) {
 
     return (
         <div className="header_main">
-            <MainHeader></MainHeader>
-            <CalendarList></CalendarList>
+            <MainHeader date={date} setDate={setDate}/>
+            <CalendarList date={date} setDate={setDate}/>
         </div>
     )
 }

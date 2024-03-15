@@ -2,16 +2,24 @@ import "./CalendarItem.css"
 
 
 
-function CalendarItem({onActive, isActive}) {
-    
-
+function CalendarItem({onActive, isActive, date, setDate}) {
+  const date_day = date.getDate();
+  var daysOfWeek = [
+  'ВС',
+  'ПН',
+  'ВТ',
+  'СР',
+  'ЧТ',
+  'ПТ',
+  'СБ'
+];
+  
   return (
-    <div className={isActive ? 'item active':'item'} onClick={onActive}>
-        <p className="item__number">12</p>
-        <p className="item__text">СР</p>
+    <div className={isActive ? 'item active':'item'} onClick={() => setDate(date)}>
+        <p className="item__number">{date_day}</p>
+        <p className="item__text">{daysOfWeek[date.getDay()]}</p>
     </div>
   )
 }
 
 export default CalendarItem;
-// active==" active"? "item" + active:"item"

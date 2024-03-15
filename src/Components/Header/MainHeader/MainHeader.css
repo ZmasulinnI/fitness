@@ -27,3 +27,8 @@
     letter-spacing: 0.15px;
     text-align: left;
 }
+
+.dialog__content {
+    width: 200px;
+    display: none;
+}

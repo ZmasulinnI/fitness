@@ -10,8 +10,9 @@
 }
 
 .workout-item__logo {
-    /* width: 47px;
-    height: 47px; */
+    width: 47px;
+    flex-shrink: 0;
+
 }
 .workout-item__info {
     width: 100%;
@@ -33,7 +34,6 @@
     font-size: 16px;
     font-weight: 500;
     color: #1c1b1e;
-    /* min-height: 24px; */
     margin-bottom: 6px;
 }
 
@@ -43,7 +43,6 @@
     font-weight: 400;
     color: #49454e;
     margin-bottom: 5px;
-    /* height: 16px; */
 }
 .info__trener-name {
     font-family: Roboto;
@@ -52,9 +51,10 @@
     line-height: 143%;
     letter-spacing: 0.02em;
     color: #1c1b1e;
-    /* height: 20px; */
 }
-
+.workout-item__date {
+    flex-shrink: 0;
+}
 .date__time {
     display: flex;
     align-items: center;
