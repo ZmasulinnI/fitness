@@ -9,6 +9,8 @@ function Header({date, setDate}) {
         <div className="header_main">
             <MainHeader date={date} setDate={setDate}/>
             <CalendarList date={date} setDate={setDate}/>
+
+
         </div>
     )
 }

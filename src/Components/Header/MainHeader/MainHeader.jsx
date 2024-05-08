@@ -15,7 +15,7 @@ function MainHeader({date, setDate}) {
     const now_date = new Date();
     const month = (now_date.toLocaleString('default', { month: 'long' })).charAt(0).toUpperCase() + (now_date.toLocaleString('default', { month: 'long' })).slice(1);
     const year = now_date.getFullYear();
-
+    // console.log(date)
 
     return (
         <div className="header">
@@ -35,7 +35,11 @@ function MainHeader({date, setDate}) {
                         <Calendar
                             mode="single"
                             selected={date}
-                            onSelect={setDate}
+                            onSelect={(prop) => {
+                                const result = new Date(date);
+                                result.setDate(prop.getDate());
+                                setDate(result)
+                            }}
                             className="rounded-md border"
                             required
                         />

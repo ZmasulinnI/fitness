@@ -1,0 +1,30 @@
+.button {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 4px;
+}
+
+
+.btn-circle {
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    background-color: #49454e;
+
+}
+.btn-form {
+    width: 64px;
+    height: 32px;
+    transition: background-color .2s;
+    border-radius: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.btn-form:hover {
+    background-color: #e9def8;
+
+    
+}

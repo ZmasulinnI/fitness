@@ -6,7 +6,5 @@ import './reset.css'
 import './normalize.css'
 
 ReactDOM.createRoot(document.getElementById('root')).render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>,
+  <App />
 )

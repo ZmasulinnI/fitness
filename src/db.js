@@ -103,6 +103,156 @@ export const schedule11 = [ // рассписание на конкретный 
 
         membersCount : 4,
         slotsCount : 5
+    },
+    {
+        organizationID : 0,
+        workoutID : 3,
+        trainerId : 2,
+        datetimeStart : 1710190584, // (11.09.2023 18:00)
+        datetimeEnd : 1694458800, // (11.09.2023 19:00)
+        
+        workoutName : "Йога",
+        workoutTypeID : 2,
+        icon : "иконка",
+        color : "#023ED9", 
+
+        membersCount : 4,
+        slotsCount : 5
+    },
+    {
+        organizationID : 0,
+        workoutID : 4,
+        trainerId : 2,
+        datetimeStart : 1710190584, // (11.09.2023 18:00)
+        datetimeEnd : 1694458800, // (11.09.2023 19:00)
+        
+        workoutName : "Йога",
+        workoutTypeID : 2,
+        icon : "иконка",
+        color : "#023ED9", 
+
+        membersCount : 4,
+        slotsCount : 5
+    },
+    {
+        organizationID : 0,
+        workoutID : 5,
+        trainerId : 2,
+        datetimeStart : 1710190584, // (11.09.2023 18:00)
+        datetimeEnd : 1694458800, // (11.09.2023 19:00)
+        
+        workoutName : "Йога",
+        workoutTypeID : 2,
+        icon : "иконка",
+        color : "#023ED9", 
+
+        membersCount : 4,
+        slotsCount : 5
+    },
+    {
+        organizationID : 0,
+        workoutID : 6,
+        trainerId : 2,
+        datetimeStart : 1710190584, // (11.09.2023 18:00)
+        datetimeEnd : 1694458800, // (11.09.2023 19:00)
+        
+        workoutName : "Йога",
+        workoutTypeID : 2,
+        icon : "иконка",
+        color : "#023ED9", 
+
+        membersCount : 4,
+        slotsCount : 5
+    },
+    {
+        organizationID : 0,
+        workoutID : 7,
+        trainerId : 2,
+        datetimeStart : 1710190584, // (11.09.2023 18:00)
+        datetimeEnd : 1694458800, // (11.09.2023 19:00)
+        
+        workoutName : "Йога",
+        workoutTypeID : 2,
+        icon : "иконка",
+        color : "#023ED9", 
+
+        membersCount : 4,
+        slotsCount : 5
+    },
+    {
+        organizationID : 0,
+        workoutID : 8,
+        trainerId : 2,
+        datetimeStart : 1710190584, // (11.09.2023 18:00)
+        datetimeEnd : 1694458800, // (11.09.2023 19:00)
+        
+        workoutName : "Йога",
+        workoutTypeID : 2,
+        icon : "иконка",
+        color : "#023ED9", 
+
+        membersCount : 4,
+        slotsCount : 5
+    },
+    {
+        organizationID : 0,
+        workoutID : 9,
+        trainerId : 2,
+        datetimeStart : 1710190584, // (11.09.2023 18:00)
+        datetimeEnd : 1694458800, // (11.09.2023 19:00)
+        
+        workoutName : "Йога",
+        workoutTypeID : 2,
+        icon : "иконка",
+        color : "#023ED9", 
+
+        membersCount : 4,
+        slotsCount : 5
+    },
+    {
+        organizationID : 0,
+        workoutID : 10,
+        trainerId : 2,
+        datetimeStart : 1710190584, // (11.09.2023 18:00)
+        datetimeEnd : 1694458800, // (11.09.2023 19:00)
+        
+        workoutName : "Йога",
+        workoutTypeID : 2,
+        icon : "иконка",
+        color : "#023ED9", 
+
+        membersCount : 4,
+        slotsCount : 5
+    },
+    {
+        organizationID : 0,
+        workoutID : 11,
+        trainerId : 2,
+        datetimeStart : 1710190584, // (11.09.2023 18:00)
+        datetimeEnd : 1694458800, // (11.09.2023 19:00)
+        
+        workoutName : "Йога",
+        workoutTypeID : 2,
+        icon : "иконка",
+        color : "#023ED9", 
+
+        membersCount : 4,
+        slotsCount : 5
+    },
+    {
+        organizationID : 0,
+        workoutID : 12,
+        trainerId : 2,
+        datetimeStart : 1710190584, // (11.09.2023 18:00)
+        datetimeEnd : 1694458800, // (11.09.2023 19:00)
+        
+        workoutName : "Йога",
+        workoutTypeID : 2,
+        icon : "иконка",
+        color : "#023ED9", 
+
+        membersCount : 4,
+        slotsCount : 5
     }
 ]
 

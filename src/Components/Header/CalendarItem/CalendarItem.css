@@ -4,11 +4,25 @@
     align-items: center;
     justify-content: space-around;
 
+    position: relative;
+
     
     padding: 8px 12px;
     border: 1px solid rgb(122, 117, 127);
     border-radius: 8px;
+    min-width: 43px;
+
+    /* animation: change 5s; */
+
 }
+/* @keyframes change {
+    from {
+        transform: translateX(0px);
+    }
+    to {
+        transform: translateX(20px);
+    }
+} */
 
 .item__number {
     color: rgb(30, 25, 43);
@@ -34,3 +48,13 @@
     background-color: #e9def8;
     border-color: #e9def8;
 }
+.circle {
+    width: 7px;
+    height: 7px;
+    border-radius: 50%;
+    background-color: #ba1a1a;
+    position: absolute;
+    top:5px;
+    right: 4px;
+}
+
